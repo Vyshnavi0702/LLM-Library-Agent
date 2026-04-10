@@ -1,5 +1,11 @@
 # 📚 LLM Library Assistant (LibroGenie)
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![LangChain](https://img.shields.io/badge/LangChain-AI-green)
+
+---
+
 ## 📌 Overview
 
 LibroGenie is an AI-powered intelligent library assistant built using **Generative AI and LangChain**.
@@ -77,25 +83,29 @@ User Query → Agent → Tool Selection → Execution → Response
 
 ### 1️⃣ Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 ### 2️⃣ Run application
 
+```bash
 streamlit run app.py
+```
 
 ### 3️⃣ Open in browser
 
+```
 http://localhost:8501
+```
 
 ---
 
 ## 📸 Sample Queries & Output (Demo)
 
-
 ### 🔍 Query: Where is Atomic Habits?
 
-📖 'Atomic Habits' is available
-📍 Floor 1, Row 3, Column 5
+![Book Search](output.png)
 
 ---
 
@@ -131,7 +141,9 @@ To enable real-time AI responses:
 2. Create a `.env` file
 3. Add:
 
+```env
 GOOGLE_API_KEY=your_api_key_here
+```
 
 ---
 
